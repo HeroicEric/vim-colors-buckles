@@ -13,4 +13,4 @@ With [Vundle](https://github.com/gmarik/vundle):
 Bundle 'heroiceric/vim-colors-buckles'
 ```
 
-Or you can just put `buckles.vim` into your `~/.vim/colors` directory.
+Or you can just put `colors/buckles.vim` into your `~/.vim/colors` directory.
