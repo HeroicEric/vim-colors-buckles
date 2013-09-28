@@ -19,12 +19,12 @@ hi Comment      guifg=#585858 ctermfg=240 gui=ITALIC cterm=NONE
 
 " JavaScript
 
-hi! link javaScriptValue Constant
-hi! link javaScriptRegexpString rubyRegexp
+hi link javaScriptValue Constant guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
+hi link javaScriptRegexpString rubyRegexp guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
 
 " CoffeeScript
 
-hi! link coffeeRegExp javaScriptRegexpString
+hi link coffeeRegExp javaScriptRegexpString guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
 
 hi rubySymbol   guifg=#87d7ff ctermfg=117 gui=NONE cterm=NONE
 " hi rubySymbol   guifg=#ffffaf ctermfg=229 gui=NONE cterm=NONE
