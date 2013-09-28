@@ -14,10 +14,15 @@ if has("gui_running")
   set background=dark
 endif
 
+" Colors
+" Tan: guifg=#FFFFAF ctermfg=229
+" Blue: guifg=#87D7FF ctermfg=117
+
 hi Normal       guifg=#FFFFFF ctermfg=15  guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi Comment      guifg=#585858 ctermfg=240 gui=ITALIC cterm=NONE
 
 hi rubySymbol   guifg=#87D7FF ctermfg=117 gui=NONE cterm=NONE
+hi link rubyStringDelimiter String
 " hi rubySymbol   guifg=#ffffaf ctermfg=229 gui=NONE cterm=NONE
 " hi rubyBlock    guifg=#87d7ff ctermfg=117 gui=NONE cterm=NONE
 
@@ -28,6 +33,7 @@ hi PreProc      guifg=#8A8A8A ctermfg=245 gui=BOLD cterm=BOLD
 hi Statement    guifg=#FFFFFF ctermfg=15  gui=BOLD cterm=BOLD
 hi String       guifg=#FFFFFF ctermfg=15  gui=NONE cterm=NONE
 hi Type         guifg=#5fff87 ctermfg=84  gui=BOLD cterm=BOLD
+hi Special      guifg=#FFFFAF ctermfg=229   gui=BOLD cterm=BOLD
 
 hi Directory    guifg=#FFFFAF ctermfg=229   gui=BOLD cterm=BOLD
 
@@ -36,7 +42,6 @@ hi CursorLineNr guifg=#5fff87 ctermfg=84  gui=NONE cterm=NONE
 
 " hi Number       guifg=#1C9898 ctermfg=30   gui=NONE cterm=NONE
 " hi Todo         guifg=#FFFFFF ctermfg=231  guibg=#990000 ctermbg=88   gui=BOLD cterm=BOLD
-" hi Special      guifg=#159828 ctermfg=28   gui=BOLD cterm=BOLD
 
 
 " hi Cursor       guifg=#F8F8FF ctermfg=231  guibg=#444454 ctermbg=238  gui=NONE cterm=NONE
@@ -81,5 +86,3 @@ hi CursorLineNr guifg=#5fff87 ctermfg=84  gui=NONE cterm=NONE
 " hi TabLineSel   guifg=#404040 ctermfg=238  gui=BOLD cterm=BOLD
 " hi cucumberTags guifg=#333333 ctermfg=236  guibg=#FFFF66 ctermbg=227  gui=BOLD cterm=BOLD
 " hi htmlTagN     gui=BOLD cterm=BOLD
-
-" hi link rubyStringDelimiter String
