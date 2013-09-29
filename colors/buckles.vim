@@ -21,23 +21,31 @@ endif
 hi Normal       guifg=#FFFFFF ctermfg=15  guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi Comment      guifg=#585858 ctermfg=240 gui=ITALIC cterm=NONE
 
-hi rubySymbol   guifg=#87D7FF ctermfg=117 gui=NONE cterm=NONE
+" JavaScript
+
+hi link javaScriptValue Constant guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
+hi link javaScriptRegexpString rubyRegexp guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
+
+" CoffeeScript
+
+hi link coffeeRegExp javaScriptRegexpString guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
+
+hi rubySymbol   guifg=#87d7ff ctermfg=117 gui=NONE cterm=NONE
 hi link rubyStringDelimiter String
+
 " hi rubySymbol   guifg=#ffffaf ctermfg=229 gui=NONE cterm=NONE
 " hi rubyBlock    guifg=#87d7ff ctermfg=117 gui=NONE cterm=NONE
 
-hi Constant     guifg=#FF5F5F ctermfg=203 gui=NONE cterm=NONE
+hi Constant     guifg=#ff5f5f ctermfg=203 gui=NONE cterm=NONE
 hi Function     guifg=#FFFFAF ctermfg=229 gui=BOLD cterm=BOLD
-hi Identifier   guifg=#FFFFAF ctermfg=229 gui=NONE cterm=NONE
-hi PreProc      guifg=#8A8A8A ctermfg=245 gui=BOLD cterm=BOLD
+hi Identifier   guifg=#ffffaf ctermfg=229 gui=NONE cterm=NONE
+hi PreProc      guifg=#8a8a8a ctermfg=245 gui=BOLD cterm=BOLD
 hi Statement    guifg=#FFFFFF ctermfg=15  gui=BOLD cterm=BOLD
 hi String       guifg=#FFFFFF ctermfg=15  gui=NONE cterm=NONE
 hi Type         guifg=#5fff87 ctermfg=84  gui=BOLD cterm=BOLD
 hi Special      guifg=#FFFFAF ctermfg=229   gui=BOLD cterm=BOLD
 
-hi Directory    guifg=#FFFFAF ctermfg=229   gui=BOLD cterm=BOLD
-
-hi LineNr       guifg=#4E4E4E ctermfg=239 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
+hi LineNr       guifg=#4e4e4e ctermfg=239 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#5fff87 ctermfg=84  gui=NONE cterm=NONE
 
 " hi Number       guifg=#1C9898 ctermfg=30   gui=NONE cterm=NONE
@@ -65,6 +73,7 @@ hi CursorLineNr guifg=#5fff87 ctermfg=84  gui=NONE cterm=NONE
 " hi SpecialKey   guifg=#FFFFFF ctermfg=231  guibg=#FF1100 ctermbg=196  gui=ITALIC cterm=NONE
 " hi MatchParen   guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=NONE cterm=NONE
 " hi Underlined   guifg=#000000 ctermfg=16   gui=UNDERLINE cterm=UNDERLINE
+" hi Directory    guifg=#990000 ctermfg=88   gui=NONE cterm=NONE
 " hi Visual       guifg=#FFFFFF ctermfg=231  guibg=#3465A4 ctermbg=61   gui=NONE cterm=NONE
 " hi VisualNOS    guifg=#FFFFFF ctermfg=231  guibg=#204A87 ctermbg=24   gui=NONE cterm=NONE
 " hi IncSearch    guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=ITALIC cterm=NONE
