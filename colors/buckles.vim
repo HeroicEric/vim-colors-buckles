@@ -18,6 +18,7 @@ endif
 " Tan: guifg=#FFFFAF ctermfg=229
 " Blue: guifg=#87D7FF ctermfg=117
 " Green: guifg=#5fff87 ctermfg=84
+" Pink: guifg=#FFAFD7 ctermfg=218
 
 hi Normal       guifg=#FFFFFF ctermfg=15  guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi Comment      guifg=#585858 ctermfg=240 gui=ITALIC cterm=NONE
@@ -33,16 +34,17 @@ hi Identifier   guifg=#FFFFAF ctermfg=229 gui=NONE cterm=NONE
 hi PreProc      guifg=#8A8A8A ctermfg=245 gui=BOLD cterm=BOLD
 hi Statement    guifg=#FFFFFF ctermfg=15  gui=BOLD cterm=BOLD
 hi String       guifg=#FFFFFF ctermfg=15  gui=NONE cterm=NONE
-hi Type         guifg=#5fff87 ctermfg=84  gui=BOLD cterm=BOLD
+hi Type         guifg=#5FFF87 ctermfg=84  gui=BOLD cterm=BOLD
 hi Special      guifg=#FFFFAF ctermfg=229   gui=BOLD cterm=BOLD
 
 hi Directory    guifg=#FFFFAF ctermfg=229   gui=BOLD cterm=BOLD
 
 hi LineNr       guifg=#4E4E4E ctermfg=239 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#5fff87 ctermfg=84  gui=NONE cterm=NONE
+hi CursorLineNr guifg=#5FFF87 ctermfg=84  gui=NONE cterm=NONE
 hi NonText      guifg=#87D7FF ctermfg=117 gui=NONE cterm=NONE
+hi SpecialKey   guifg=#FFAFD7 ctermfg=218 gui=ITALIC cterm=NONE
 
-hi Title        guifg=#5fff87 ctermfg=84 gui=NONE cterm=NONE
+hi Title        guifg=#5FFF87 ctermfg=84 gui=NONE cterm=NONE
 
 " hi Number       guifg=#1C9898 ctermfg=30   gui=NONE cterm=NONE
 " hi Todo         guifg=#FFFFFF ctermfg=231  guibg=#990000 ctermbg=88   gui=BOLD cterm=BOLD
@@ -64,7 +66,6 @@ hi Title        guifg=#5fff87 ctermfg=84 gui=NONE cterm=NONE
 " hi ModeMsg      guifg=#990000 ctermfg=88   gui=NONE cterm=NONE
 " hi MoreMsg      guifg=#990000 ctermfg=88   gui=NONE cterm=NONE
 " hi WarningMsg   guifg=#EF5939 ctermfg=203  gui=NONE cterm=NONE
-" hi SpecialKey   guifg=#FFFFFF ctermfg=231  guibg=#FF1100 ctermbg=196  gui=ITALIC cterm=NONE
 " hi MatchParen   guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=NONE cterm=NONE
 " hi Underlined   guifg=#000000 ctermfg=16   gui=UNDERLINE cterm=UNDERLINE
 " hi Visual       guifg=#FFFFFF ctermfg=231  guibg=#3465A4 ctermbg=61   gui=NONE cterm=NONE
