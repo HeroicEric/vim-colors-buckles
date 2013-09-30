@@ -19,6 +19,7 @@ endif
 " Blue: guifg=#87D7FF ctermfg=117
 " Green: guifg=#5fff87 ctermfg=84
 " Pink: guifg=#FFAFD7 ctermfg=218
+" Salmon: guifg=#FF5F5F ctermfg=203
 
 hi Normal       guifg=#FFFFFF ctermfg=15  guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi Comment      guifg=#585858 ctermfg=240 gui=ITALIC cterm=NONE
@@ -52,7 +53,7 @@ hi Title        guifg=#5FFF87 ctermfg=84 gui=NONE cterm=NONE
 
 " hi Cursor       guifg=#F8F8FF ctermfg=231  guibg=#444454 ctermbg=238  gui=NONE cterm=NONE
 " hi CursorColumn guibg=#D8D8DD ctermbg=253  gui=NONE cterm=NONE
-" hi CursorLine   guifg=#5fff87 ctermfg=84  gui=NONE cterm=NONE
+hi CursorLine   guibg=#262626 ctermbg=235  gui=NONE cterm=NONE
 
 " hi DiffAdd      guifg=#003300 ctermfg=22   guibg=#DDFFDD ctermbg=194  gui=NONE cterm=NONE
 " hi DiffChange   guibg=#ECECEC ctermbg=255  gui=NONE cterm=NONE
@@ -68,8 +69,8 @@ hi Title        guifg=#5FFF87 ctermfg=84 gui=NONE cterm=NONE
 " hi WarningMsg   guifg=#EF5939 ctermfg=203  gui=NONE cterm=NONE
 " hi MatchParen   guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=NONE cterm=NONE
 " hi Underlined   guifg=#000000 ctermfg=16   gui=UNDERLINE cterm=UNDERLINE
-" hi Visual       guifg=#FFFFFF ctermfg=231  guibg=#3465A4 ctermbg=61   gui=NONE cterm=NONE
-" hi VisualNOS    guifg=#FFFFFF ctermfg=231  guibg=#204A87 ctermbg=24   gui=NONE cterm=NONE
+hi Visual       guifg=#FFFFFF ctermfg=15 guibg=#FF5F5F ctermbg=203   gui=NONE cterm=NONE
+hi VisualNOS    guifg=#FFFFFF ctermfg=15 guibg=#FF5F5F ctermbg=203   gui=NONE cterm=NONE
 " hi IncSearch    guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=ITALIC cterm=NONE
 " hi Search       guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=ITALIC cterm=NONE
 " hi Ignore       guifg=#808080 ctermfg=244  gui=NONE cterm=NONE
