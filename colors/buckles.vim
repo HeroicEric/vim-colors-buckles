@@ -68,9 +68,10 @@ hi CursorLine   guibg=#262626 ctermbg=235  gui=NONE cterm=NONE
 " hi MoreMsg      guifg=#990000 ctermfg=88   gui=NONE cterm=NONE
 " hi WarningMsg   guifg=#EF5939 ctermfg=203  gui=NONE cterm=NONE
 " hi MatchParen   guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=NONE cterm=NONE
-" hi Underlined   guifg=#000000 ctermfg=16   gui=UNDERLINE cterm=UNDERLINE
+hi Underlined   guifg=#87D7FF ctermfg=117   gui=UNDERLINE cterm=UNDERLINE
 hi Visual       guifg=#FFFFFF ctermfg=15 guibg=#FF5F5F ctermbg=203   gui=NONE cterm=NONE
 hi VisualNOS    guifg=#FFFFFF ctermfg=15 guibg=#FF5F5F ctermbg=203   gui=NONE cterm=NONE
+hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF5F5F ctermbg=203   gui=NONE cterm=NONE
 " hi IncSearch    guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=ITALIC cterm=NONE
 " hi Search       guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=ITALIC cterm=NONE
 " hi Ignore       guifg=#808080 ctermfg=244  gui=NONE cterm=NONE
